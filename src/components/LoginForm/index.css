@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  background-color: skyblue;
+  width: 30%;
+  border-radius: 5px;
+}
+.login-logo {
+  height: 30%;
+  width: 30%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 80%;
+}
+.input-container-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 80%;
+}
+.checkbox-label {
+  font-size: 13px;
+  font-size: bold;
+  margin-left: 2px;
+}
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.user-input-field {
+  height: 20px;
+  font-size: 14px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+.password-input-field {
+  font-size: 14px;
+  height: 20px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 36px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
